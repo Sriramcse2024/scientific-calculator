@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(29, 22, 22, 0.61);
+    background-image:url(image\ calc1.jpg) ;
+    background-position: center;
+}
+
+.for{
+    box-shadow: 
+    0em 1.2em 1.2em rgba(188, 186, 218, 0.911),
+    inset 0em 1.2em 1.2em rgba(6, 10, 241, 0.39);
+}
+
+
+.center{
+    background-image: url(image\ calc.avif);
+    border-radius: 25px; 
+    width: 350px;
+}
+
+
+input[type="text"]{
+    height:60px ;
+    width: 240px; ;
+    margin-top: 40px ;
+    border-radius: 3px ;
+    /* border: 1px solid #0fa1eb ; */
+    border: 1px solid #1cf008;
+    color: rgb(20, 2, 2) ;
+    font-size: 22px;
+    font-weight: bold ;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+
+form .buttons{
+    width:300px ;
+    margin:10px 25px 0px 25px ;
+    padding:10px 0px ;
+}
+
+input[type="button"]{
+    width:45px ;
+    height: 50px;
+    margin:5px ;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 3px;
+    border: 1px solid #1cf008;
+
+}
+
+input#clear{
+    background: aqua;
+    color: rgb(231, 17, 17);
+}
+
+input#equal{
+    width:230px ;
+    margin:10px 0px 10px 0px ;
+    font-size:30px ;
+    color: black ;
+    background: royalblue ;
+    border: 1px solid ;
+
+
+}
